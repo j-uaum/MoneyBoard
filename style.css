@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/*
+font-family: 'Montserrat', sans-serif;
+*/
+
 /*html{
 
     overflow: hidden;
@@ -9,6 +14,9 @@
 
 body{
   background: #262b2f ;
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 .container{
@@ -22,6 +30,7 @@ grid-gap: 20px;
 padding: 15px;
 grid-row-gap: 50px 50px 50px 50px;
 
+grid-template: auto auto auto / auto auto auto auto auto ;
 
 grid-template-areas: "a1 a2 a3 a4 a5"
                      "a1 a6 a6 a7 a7"
@@ -30,24 +39,16 @@ grid-template-areas: "a1 a2 a3 a4 a5"
                     
 }
 
-.nav{
 
+
+.header{
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-
-}
-img{
-  width: 80px;
- margin-bottom: 50px;
-}
-
-.header{
-  grid-area: a1;
-
-  
-text-align:center;
+  align-content: center;
+grid-area: a1;
+/* text-align:center; */
 width: 200px;
 height: 850px;
 background-color: #808080;
@@ -56,24 +57,73 @@ border-radius: 30px;
 padding: 40px;
 box-shadow: 5px 5px 5px  black;
 border-radius: 10px;
+color: whitesmoke;
+
+
+}
+.nav{
+gap: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: whitesmoke;
+
+}
+.menu{
+
+  color: whitesmoke;
+}
+.menu::before{
+  content:"";
+display: inline-block;
+width: 25px;
+height: 10px;
+background-image: url(/chevron_right_FILL0_wght400_GRAD0_opsz48.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+
+}
+img{
+  
+   width: 50%;
+ margin-bottom: 50px;
+
+ 
+}
+
+.titulo{
+
+  font-size: 23px;
+  padding-bottom: 25px;
+
+
+
+}
+.nav{
+margin: center;
+  margin-bottom: 450px;
 
 }
 .dash1{
+
   grid-area: a2;
   text-align:center;
-  width: 250px;
-  height: 80px;
+  /* width: 250px;
+  height: 80px; */
   background-color: #4F4F4F;
   border-radius: 30px;
   padding: 40px;
   box-shadow: 5px 5px 5px  black;
   border-radius: 10px;
 }
+
 .dash2{
   grid-area: a3;
   text-align:center;
-  width: 250px;
-  height: 80px;
+  /* width: 250px;
+  height: 80px; */
   background-color: #4F4F4F;
   border-radius: 30px;
   padding: 40px;
@@ -83,8 +133,8 @@ border-radius: 10px;
 .dash3{
   grid-area: a4;
   text-align:center;
-  width: 250px;
-  height: 80px;
+  /* width: 250px;
+  height: 80px; */
   background-color: #4F4F4F;
   border-radius: 30px;
   padding: 40px;
@@ -94,8 +144,8 @@ border-radius: 10px;
 .dash4{
   grid-area: a5;
   text-align:center;
-  width: 250px;
-  height: 80px;
+  /* width: 250px;
+  height: 80px; */
   background-color: #4F4F4F;
   border-radius: 30px;
   padding: 40px;
@@ -105,8 +155,8 @@ border-radius: 10px;
 .dash5{
   grid-area: a6;
   text-align:center;
-  width: 600px;
-  height: 200px;
+  /* width: 600px;
+  height: 200px; */
   background-color: #4F4F4F;
   border-radius: 30px;
   padding: 40px;
@@ -116,8 +166,8 @@ border-radius: 10px;
 .dash6{
   grid-area: a7;
   text-align:center;
-  width: 600px;
-  height: 200px;
+  /* width: 600px;
+  height: 200px; */
   background-color: #4F4F4F;
   border-radius: 30px;
   padding: 40px;
@@ -127,8 +177,8 @@ border-radius: 10px;
 .dash7{
   grid-area: a8;
   text-align:center;
-  width: 350px;
-  height: 200px;
+  /* width: 350px;
+  height: 200px; */
   background-color: #4F4F4F;
   border-radius: 30px;
   padding: 40px;
@@ -138,8 +188,8 @@ border-radius: 10px;
 .dash8{
   grid-area: a9;
   text-align:center;
-  width: 350px;
-  height: 200px;
+  /* width: 350px;
+  height: 200px; */
   background-color: #4F4F4F;
   border-radius: 30px;
   padding: 40px;
@@ -149,8 +199,8 @@ border-radius: 10px;
 .dash9{
   grid-area: a10;
   text-align:center;
-  width: 350px;
-  height: 200px;
+  /* width: 350px;
+  height: 200px; */
   background-color: #4F4F4F;
   border-radius: 30px;
   padding: 40px;
@@ -160,8 +210,8 @@ border-radius: 10px;
 .dash10{
   grid-area: a10;
   text-align:center;
-  width: 350px;
-  height: 200px;
+  /* width: 350px;
+  height: 200px; */
   background-color: #4F4F4F;
   border-radius: 30px;
   padding: 40px;
@@ -169,3 +219,18 @@ border-radius: 10px;
   border-radius: 10px;
 
 }
+.menu:hover{
+  transition: transform 100ms linear;
+  transform: scale(1.08);
+  color: black;
+  
+}
+
+/*
+anotações
+
+a dimensão dos card foi guiada pelo card header
+todos os outros cards não tem dimensões pre-definidas
+- isso ajudou na responsividade e na formatação dos espaços do grid
+
+*/
