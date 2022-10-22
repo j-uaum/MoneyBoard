@@ -111,117 +111,61 @@ margin: center;
   margin-bottom: 450px;
 
 }
-.dash1{
+
+.dash{
+  text-align:center;
+  /* width: 250px;
+  height: 80px; */
+  background-color: #4F4F4F;
+  border-radius: 30px;
+  padding: 40px;
+  box-shadow: 5px 5px 5px  black;
+  border-radius: 10px;
+
+
+
+}
+#dash1{
 
   grid-area: a2;
-  text-align:center;
-  /* width: 250px;
-  height: 80px; */
-  background-color: #4F4F4F;
-  border-radius: 30px;
-  padding: 40px;
-  box-shadow: 5px 5px 5px  black;
-  border-radius: 10px;
+  
 }
 
-.dash2{
+#dash2{
   grid-area: a3;
-  text-align:center;
-  /* width: 250px;
-  height: 80px; */
-  background-color: #4F4F4F;
-  border-radius: 30px;
-  padding: 40px;
-  box-shadow: 5px 5px 5px  black;
-  border-radius: 10px;
+  
 }
-.dash3{
+#dash3{
   grid-area: a4;
-  text-align:center;
-  /* width: 250px;
-  height: 80px; */
-  background-color: #4F4F4F;
-  border-radius: 30px;
-  padding: 40px;
-  box-shadow: 5px 5px 5px  black;
-  border-radius: 10px;
+  
 }
-.dash4{
+#dash4{
   grid-area: a5;
-  text-align:center;
-  /* width: 250px;
-  height: 80px; */
-  background-color: #4F4F4F;
-  border-radius: 30px;
-  padding: 40px;
-  box-shadow: 5px 5px 5px  black;
-  border-radius: 10px;
+
 }
-.dash5{
+#dash5{
   grid-area: a6;
-  text-align:center;
-  /* width: 600px;
-  height: 200px; */
-  background-color: #4F4F4F;
-  border-radius: 30px;
-  padding: 40px;
-  box-shadow: 5px 5px 5px  black;
-  border-radius: 10px;
+ 
 }
-.dash6{
+#dash6{
   grid-area: a7;
-  text-align:center;
-  /* width: 600px;
-  height: 200px; */
-  background-color: #4F4F4F;
-  border-radius: 30px;
-  padding: 40px;
-  box-shadow: 5px 5px 5px  black;
-  border-radius: 10px;
+  
 }
-.dash7{
+#dash7{
   grid-area: a8;
-  text-align:center;
-  /* width: 350px;
-  height: 200px; */
-  background-color: #4F4F4F;
-  border-radius: 30px;
-  padding: 40px;
-  box-shadow: 5px 5px 5px  black;
-  border-radius: 10px;
+  
 }
-.dash8{
+#dash8{
   grid-area: a9;
-  text-align:center;
-  /* width: 350px;
-  height: 200px; */
-  background-color: #4F4F4F;
-  border-radius: 30px;
-  padding: 40px;
-  box-shadow: 5px 5px 5px  black;
-  border-radius: 10px;
+  
 }
-.dash9{
+#dash9{
   grid-area: a10;
-  text-align:center;
-  /* width: 350px;
-  height: 200px; */
-  background-color: #4F4F4F;
-  border-radius: 30px;
-  padding: 40px;
-  box-shadow: 5px 5px 5px  black;
-  border-radius: 10px;
+  
 }
-.dash10{
+#dash10{
   grid-area: a10;
-  text-align:center;
-  /* width: 350px;
-  height: 200px; */
-  background-color: #4F4F4F;
-  border-radius: 30px;
-  padding: 40px;
-  box-shadow: 5px 5px 5px  black;
-  border-radius: 10px;
+  
 
 }
 
