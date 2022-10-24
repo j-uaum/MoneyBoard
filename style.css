@@ -125,6 +125,13 @@ margin: center;
 
 
 }
+h4{
+  margin-top: 20px;
+}
+.p{
+  margin-top: 20px;
+}
+
 #dash1{
 
   grid-area: a2;
