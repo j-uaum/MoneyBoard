@@ -127,20 +127,17 @@ margin: center;
   2px 2px 10px goldenrod; */
   filter: drop-shadow(5px 5px 4px #536976);
  border-radius: 10px;
-  z-index: -1; /* To keep the shadow behind the div*/
+  /* z-index: -1; To keep the shadow behind the div */
   
  
 
 }
 
 .dash:hover{
-  transition: transform 1200ms linear;
-  transform: scale(0.95);
+  transition: transform 1900ms linear;
+  transform: scale(0.98);
 }
-.dash::before{
 
-  transform: rotateY(-40deg);
-}
 h4{
   margin-top: 20px;
 }
