@@ -119,14 +119,14 @@ margin: center;
   /* width: 250px;
   height: 80px; */
   background-color: #4F4F4F;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   padding: 40px;
   /* box-shadow: 0px 3px 5px 0px  goldenrod; */
   /* box-shadow: 0 3px 5px goldenrod ; */
   /* box-shadow: 1px 1px 10px  goldenrod,
   2px 2px 10px goldenrod; */
   filter: drop-shadow(5px 5px 4px #536976);
-  border-radius: 10px;
+ border-radius: 10px;
   z-index: -1; /* To keep the shadow behind the div*/
   
  
