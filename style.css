@@ -128,11 +128,26 @@ background-position: center;
 background-size: cover;
 }
 #baixa{
+  background-color: grey;
+border-radius: 10px;
+padding: 5px;
   color: red;
-  -webkit-text-stroke-width: 0.0001px;
--webkit-text-stroke-color: white;
+  text-shadow: 0 0 10px black, 0  0 15px;
   font-size: 50px;
   font: bold;
+}
+#baixa::before{
+
+  content:"";
+  display: inline-block;
+  
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  background-image: url(/trending_down_FILL0_wght400_GRAD0_opsz48.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 #dash1{
   grid-area: a2;
