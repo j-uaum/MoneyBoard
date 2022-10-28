@@ -108,7 +108,7 @@ h4{
 .p{
   margin-top: 20px;
 }
-#alta{
+.alta{
 background-color: grey;
 border-radius: 10px;
 padding: 5px;
@@ -118,7 +118,7 @@ padding: 5px;
   font-size: 50px;
   font: bold;
 }
-#alta::before{
+.alta::before{
   content:"";
 display: inline-block;
 
@@ -130,7 +130,7 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 }
-#baixa{
+.baixa{
   background-color: grey;
 border-radius: 10px;
 padding: 5px;
@@ -139,7 +139,7 @@ padding: 5px;
   font-size: 50px;
   font: bold;
 }
-#baixa::before{
+.baixa::before{
 
   content:"";
   display: inline-block;
