@@ -1,7 +1,4 @@
-$(window).load(function() {
-  document.getElementById("loading").style.display = "none";
-  document.getElementById("conteudo").style.display = "inline";
-})
+
 // botoes
 let btn = document.getElementById('card1')
 let btn2 = document.getElementById('card2')
