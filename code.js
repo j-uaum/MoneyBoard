@@ -51,7 +51,7 @@ btn.addEventListener('click', () => {
 //euro
     fetch("https://economia.awesomeapi.com.br/json/daily/EUR-BRL/15").then((res2)=>{return res2.json()}).then((data2)=>{ 
 
-    dashs[0].innerHTML = '<img class="usa-flag" src="./european-union.png" alt="euro-flag"> <p>União Europeia</p><p>Zona do euro</p>';
+    dashs[0].innerHTML = '<img class="usa-flag" src="./europe-flag" alt="euro-flag"> <p>União Europeia</p><p>Zona do euro</p>';
     dashs[1].innerHTML = `<h3>Cotação Atual</h3> <p>Alta/atual: ${parseFloat(euro.high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</p> <p>Baixa:${parseFloat(euro.low).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</p>`
     dashs[2].innerHTML = `<h3>Cotações Antigas</h3> <p>Ontem:${parseFloat(data2[1].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</p><p>Anteontem:${parseFloat(data2[2].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</p><p>à 3 dias:${parseFloat(data2[3].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</p><p>à 4 dias:${parseFloat(data2[4].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</p><p>à 5 dias:${parseFloat(data2[5].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</p>  <p>à 6 dias:${parseFloat(data2[6].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</p>  <p>à 7 dias:${parseFloat(data2[7].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</p>` 
    dashs[3].innerHTML = "<h2>Principais pontos da econômia</h2><li>Turismo</li> <li>Serviços e empresas</li><li>Industria</li><li>Esporte e Entretenimento</li> <li>Tecnologia</li> <li>Mineração</li>  "
