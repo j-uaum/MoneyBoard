@@ -90,7 +90,7 @@ text-align: center;
   align-items: center;
   
   background-color: #4F4F4F;
-  padding: 20px;
+  padding: 30px;
   filter: drop-shadow(5px 5px 4px #536976);
  border-radius: 10px;
 }
@@ -109,7 +109,7 @@ h4{
   margin-top: 20px;
 }
 .alta{
-background-color: grey;
+  background-color: rgba(28, 28, 29, 0.6);
 border-radius: 10px;
 padding: 5px;
   /* border-bottom: 3px solid #27461f; */
@@ -131,7 +131,7 @@ background-position: center;
 background-size: cover;
 }
 .baixa{
-  background-color: grey;
+  background-color: rgba(28, 28, 29, 0.6);
 border-radius: 10px;
 padding: 5px;
   color: red;
@@ -151,6 +151,52 @@ padding: 5px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.anti-coti{
+  
+  color: yellow;
+  text-shadow: 0 0 10px black, 0  0 15px;
+  font-size: 28px;
+  font: bold;
+}
+.anti-coti::before{
+  content:"";
+  display: inline-block;
+  
+  width: 15px;
+  height: 15px;
+  padding: 8px;
+  background-image: url(./arrow_downward_FILL0_wght400_GRAD0_opsz48.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.titulo-bandeira{
+
+font-size: 38px;
+background-color: rgba(28, 28, 29, 0.1);
+padding: 10px;
+  border-radius: 8px;
+
+
+}
+
+.item-lista{
+  position: relative;
+  font-size: 20px;
+ background-color: rgba(28, 28, 29, 0.12);
+  padding: 10px;
+  border-radius: 8px;
+  
+  
+  
+}
+
+.continente{
+  font-size: 27px;
+  background-color: rgba(28, 28, 29, 0.1);
+  padding: 10px;
+  border-radius: 8px;
 }
 #dash1{
   grid-area: a2;
