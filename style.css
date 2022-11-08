@@ -29,6 +29,8 @@ html{
   margin: 0;
 }
 body{
+  display: flex;
+  flex-wrap: wrap;
   /* background: linear-gradient(45deg, #9796F0, #FBC7D4); */
   background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20,20,20,0.6) ), url(./wall-bolsa.jpg);
   font-family: 'Roboto', sans-serif;
@@ -327,7 +329,20 @@ padding: 10px;
   }
 }
 
+ @media (390px <= width <= 750px){
 
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .header{
+   display: flex;
+   flex-direction: row;
+
+  }
+
+
+} 
 
 
 
