@@ -329,7 +329,7 @@ padding: 10px;
   }
 }
 
- @media (390px <= width <= 750px){
+ @media (390px <= width <= 919px){
 
   .container{
     display: flex;
