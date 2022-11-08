@@ -12,3 +12,7 @@ res.innerHTML = number * dolar;
 
 });
 
+
+
+
+dashs[8].innerHTML = `<h2>Faça sua Conversão</h2><br><br> <div class="bloco"> <div class="cambio"> <input type="number" class="real"></div> <div class="dolar">5,16</div><div class="res"></div></div><div class="botao-cambio"><button class="enviar">Calcular!!!</button></div>` 
