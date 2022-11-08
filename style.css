@@ -334,12 +334,9 @@ padding: 10px;
   .container{
     display: flex;
     flex-direction: column;
+    max-width: 80%;
   }
-  .header{
-   display: flex;
-   flex-direction: row;
-
-  }
+  
 
 
 } 
