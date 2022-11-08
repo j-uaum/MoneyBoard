@@ -10,6 +10,8 @@
     <link rel="prefetch" href="./europe-flag.png">
     <link rel="prefetch" href="./5678.png">
     <link rel="prefetch" href="./chevron_right_FILL0_wght400_GRAD0_opsz48.svg">
+    <link rel="prefetch" href="./money-image.png">
+    
 </head>
 <body id="body">
 
@@ -21,9 +23,9 @@
                    
 
                                 <nav class="nav">
-                                    <img src="./5678.png" alt="menu" class="img-title">
+                                    <img src="./money-image.png" alt="menu" class="img-title">
                                     <a href="index.html" ><button class="menu" >Inicio</button></a>
-                                  <button id="card1" class="menu">Todas as moedas</button>
+                                  <!-- <button id="card1" class="menu">Todas as moedas</button> -->
                                     <button id="card2" class="menu">Dólar</button>
                                     <button id="card3" class="menu">Euro</button>
                                     <button id="card4" class="menu">Real</button>
@@ -44,8 +46,32 @@
                         <div id="dash2"  class="dash"><h3>Sobre o projeto</h3>  <p class="p">Nosso objetivo é simplificar a visualização de informações acerca de economias globais, Informações como Câmbio, cotações, Dicas de investimento, desempenho monetário e informações gerais podem ser encontradas em um só lugar</p></div>
                                 <div id="dash3" class="dash"><h3>Como funciona?</h3> <p  class="p">Apenas clique nas moedas que você estiver interessado no menu lateral</p></div>
                                 <div id="dash4" class="dash"><h3>São em tempo real?</h3> <p  class="p">As informações são reais e são atualizadas a cada 30 segundos</p></div>
-                                <div id="dash5" class="dash"><iframe width="560" height="315" src="https://www.youtube.com/embed/F4jxW3BGyFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                                    <div id="dash6" class="dash"><iframe width="560" height="315" src="https://www.youtube.com/embed/3dQm0HUjmX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                <div id="dash5" class="dash"><!-- TradingView Widget BEGIN -->
+                                    <div class="tradingview-widget-container">
+                                      <div id="tradingview_d2457"></div>
+                                      <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/USDBRL/?exchange=FX_IDC" rel="noopener" target="_blank"><span class="blue-text">Gráfico USDBRL</span></a> por TradingView</div>
+                                      <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                                      <script type="text/javascript">
+                                      new TradingView.widget(
+                                      {
+                                      "width": 612,
+                                      "height": 400,
+                                      "symbol": "FX_IDC:USDBRL",
+                                      "interval": "D",
+                                      "timezone": "America/Sao_Paulo",
+                                      "theme": "dark",
+                                      "style": "1",
+                                      "locale": "br",
+                                      "toolbar_bg": "#f1f3f6",
+                                      "enable_publishing": false,
+                                      "allow_symbol_change": true,
+                                      "container_id": "tradingview_d2457"
+                                    }
+                                      );
+                                      </script>
+                                    </div>
+                                    <!-- TradingView Widget END --></div>
+                                    <div id="dash6" class="dash"><iframe width="612" height="400" src="https://www.youtube.com/embed/ygjjcwZLm_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                                     <div id="dash7" class="dash"><h3>APIs e ferramentas</h3> <p  class="p">Awesome API</p> <p>JavaScript</p> <p>Node.js</p> <p>HTML&CSS</p></div>
                                         <div id="dash8" class="dash"><h3>Problemas?</h3><p  class="p">Entre na aba de conheça os criadores, lá podera achar os contatos que poderam resolver seu problema</p></div>
                                                 <div id="dash10" class="dash"><h4 id="h4">© 2022 Marksman Todos os direitos reservados.</h4></div>
