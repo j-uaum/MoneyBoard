@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Mitr&family=Rajdhani:wght@300&family=Righteous&family=Roboto:wght@300&family=Sarala:wght@400;700&family=Source+Code+Pro:ital,wght@0,300;0,700;0,900;1,300;1,500&display=swap');
+/*
+font-family: 'Roboto', sans-serif;
+*/
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*Configuração da barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: black;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #000000, #1C1C1C, #363636, #4F4F4F );
+  background-size: 100% 100%;
+  animation: cores 30s ease infinite;
+  border-radius: 25px;
+}
+
+
+*{
+  margin: 0;
+}
+body{
+    background-color: #1C1C1C;
+}

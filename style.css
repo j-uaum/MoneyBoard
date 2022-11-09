@@ -264,6 +264,33 @@ padding: 10px;
   padding: 10px;
   border-radius: 8px;
 }
+.exchange-container{
+  display: flex;
+  flex-direction: column;
+padding: 10px;
+}
+.btn-exchange{
+  margin-top: 100px;
+  background-color: #feff00;
+  border: none;
+  padding: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.exchange-input{
+  border: #feff00 solid 2.8px;
+  border-radius: 4px;
+  padding: 18px;
+margin-top: 8px;
+  background-color: rgba(28, 28, 29, 0.6);
+  color: whitesmoke;
+}
+.btn-exchange:hover{
+  background-color: #1f1e1e;
+  color:whitesmoke;
+  transition: transform 100ms linear;
+  transform: scale(1.01);
+}
 #dash1{
   grid-area: a2;
 }
