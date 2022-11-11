@@ -8,6 +8,9 @@ let btn5 = document.getElementById('card5')
 let btn6 = document.getElementById('card6')
 let btn7 = document.getElementById('card7')
 let dashs = document.querySelectorAll(".dash"); // cards
+let inp = document.querySelector(".ex-input")
+let btn = document.getElementById("btn")
+let res = document.querySelector(".exchange-res");
 
 
 
@@ -22,34 +25,22 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
     const rublo = data.RUBBRL
     const won = data.KRWUSD
   
-    //btn todas as moedas
-// btn.addEventListener('click', () => {
-
-//   dashs[0].innerHTML = 'hello world!';
-  
-//   });
-  
-  
-  
-  
-  
-  
+    
   // botão dolar
   btn2.addEventListener('click', () =>{
   //dolar
   fetch("https://economia.awesomeapi.com.br/json/daily/USD-BRL/15").then((res2)=>{return res2.json()}).then((data2)=>{ 
   
-    dashs[0].innerHTML = '<img class="usa-flag" src="united-states.png" alt="usa-flag"> <p class="titulo-bandeira">Estados Unidos Da América</p><br><br><p class="continente">América do Norte</p>';
+    dashs[0].innerHTML = '<img class="usa-flag" src="nited-states.png" alt="usa-flag"> <p class="titulo-bandeira">Estados Unidos Da América</p><br><br><p class="continente">América do Norte</p>';
     dashs[1].innerHTML = `<h3>Cotação Atual</h3><br> <p class="alta"> ${parseFloat(dolar.high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</p><br> <h1 class="baixa"> ${parseFloat(dolar.low).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</h1><br><br><p>Cotação em tempo real</p>`
     dashs[2].innerHTML = `<h3>Cotações Antigas</h3><br> <h1 class="anti-coti"> ${parseFloat(data2[1].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</h1><br><h1 class="anti-coti"> ${parseFloat(data2[2].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</h1><br><h1 class="anti-coti">  ${parseFloat(data2[3].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</h1><br><h1 class="anti-coti"> ${parseFloat(data2[4].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</h1><br><h1 class="anti-coti">  ${parseFloat(data2[5].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</h1><br>  <h1 class="anti-coti">  ${parseFloat(data2[6].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</h1> <br> <h1 class="anti-coti">  ${parseFloat(data2[7].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</h1>` 
     dashs[3].innerHTML = "<h2 class='titulo-pontos'>Principais pontos da econômia</h2><br><br> <li class='item-lista'>Serviços e empresas</li><br><li class='item-lista'>Agropecuarios</li> <br><li class='item-lista'>Industria</li><br> <li class='item-lista'>Tecnologia</li><br> <li class='item-lista'>Mineração</li><br> <li class='item-lista'>Turismo</li><br> <li class='item-lista'>Cinema e entretenimento</li> "
     dashs[5].innerHTML = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/3dQm0HUjmX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     dashs[6].innerHTML = "<h2 class='titulo-pontos'>Dados do País</h2><br><br> <li class='item-lista'>Presidente: Joe Biden</li><br><li class='item-lista'>Capital: Washington D.C.</li> <br><li class='item-lista'>População: 329,5 Milhões (2020)</li><br> <li class='item-lista'>Cidades Notaveis: New York, San Francisco, Los Angeles, Chicago</li><br> <li class='item-lista'>PIB: US$23 Trilhões (2021) * O melhor</li><br> <li class='item-lista'>PIB per Capita: US$ 69.230,00 </li><br> <li class='item-lista'>Inflação: 7% (Desembro de 2021)</li>"
     dashs[7].innerHTML = "<h2 class='titulo-pontos'>Países que utilizam essa moeda</h2><br><br> <h3 class='item-lista'>Oficialmente:</h3> <br><li class='item-lista'>Timor-Leste</li> <br><li class='item-lista'>Equador</li><br><li class='item-lista'>El Salvador</li><br><li class='item-lista'>Panamá</li><br><li class='item-lista'>Zimbabwe</li><br><li class='item-lista'>Estados Federados da Micronésia</li><br><br> <h3 class='item-lista'>Não Oficial:</h3><br> <li class='item-lista'>Porto Rico</li><br> <li class='item-lista'>Samoa Americana</li><br><li class='item-lista'>Ilhas Virgens</li>"
-    dashs[8].innerHTML = `<h2 class="titulo-pontos">Converta Aqui</h2><br><br> <div class="exchange-container"><label for="input1" class="exchange-label">Real</label><input type="number" class="exchange-input" name="input1" placeholder="Digite seu valor aqui..."><img class="exchange-img" src="./chevron_duo_right.svg" alt=""><label for="input2" class="exchange-label">Dólar</label><span class="exchange-input" name="input2">${parseFloat(dolar.high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</span><button class="btn-exchange">CONVERTER</button><span class="exchange-res"></span></button></div>` 
- 
+    dashs[8].innerHTML =` <button id="btn" onclick="ok()"></button>`//sistema de conversao no bloco de notas
+
     })
-    //ver os borders diferentes
   });
   
   btn3.addEventListener('click', () =>{

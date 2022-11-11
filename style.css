@@ -269,7 +269,7 @@ padding: 10px;
   flex-direction: column;
 padding: 10px;
 }
-.btn-exchange{
+.btn{
   margin-top: 100px;
   background-color: #feff00;
   border: none;
@@ -277,7 +277,7 @@ padding: 10px;
   border-radius: 10px;
   font-weight: bold;
 }
-.exchange-input{
+.ex-input{
   border: #feff00 solid 2.8px;
   border-radius: 4px;
   padding: 18px;
@@ -285,7 +285,15 @@ margin-top: 8px;
   background-color: rgba(28, 28, 29, 0.6);
   color: whitesmoke;
 }
-.btn-exchange:hover{
+.exchange-dolar{
+  border: #feff00 solid 2.8px;
+  border-radius: 4px;
+  padding: 18px;
+margin-top: 8px;
+  background-color: rgba(28, 28, 29, 0.6);
+  color: whitesmoke;
+}
+.btn:hover{
   background-color: #1f1e1e;
   color:whitesmoke;
   transition: transform 100ms linear;
