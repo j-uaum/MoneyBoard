@@ -17,8 +17,10 @@ btn.addEventListener('click',()=>{
 
 let value = parseFloat(inp.value)
 let total = value * dolar.high
-res.innerHTML = total;
+
 
 })
+
+res.innerHTML = total;
 
 });
