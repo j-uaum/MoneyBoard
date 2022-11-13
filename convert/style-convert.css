@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Mitr&family=Rajdhani:wght@300&family=Righteous&family=Roboto:wght@300&family=Sarala:wght@400;700&family=Source+Code+Pro:ital,wght@0,300;0,700;0,900;1,300;1,500&display=swap');
+/*
+font-family: 'Roboto', sans-serif;
+*/
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*Configuração da barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: black;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #000000, #1C1C1C, #363636, #4F4F4F );
+  background-size: 100% 100%;
+  animation: cores 30s ease infinite;
+  border-radius: 25px;
+}
+
+
+*{
+  margin: 0;
+}
+body{
+    background-color: #1C1C1C;
+   
+}
+.menu-convert{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    color:#000000;
+    --s: 0.1em;   /* espesura da linha usando um var do css */
+    --c: #feff00; /* cor em var do css */
+    color: #0000;
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(#363636, #363636);
+    padding: 7px;
+    gap: 230px;
+    border-bottom: solid antiquewhite 0.3px;
+}
+.container{
+    width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: 'Sarala', sans-serif;
+}
+.nav-img{
+    width: 120px;
+    border: #1f1e1e solid 4px;
+    /* border-radius: 12px; */
+    box-shadow: #1f1e1e ;
+    background-color:#2f2e2eb2;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+   padding: 7px;
+   gap: 18px;
+    
+}
+.packet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    
+
+   
+}
+.menu-convert:hover{
+    --_p: 100%
+}
+
+
+  
+  
+  
+  
+  

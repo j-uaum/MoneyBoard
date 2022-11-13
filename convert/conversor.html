@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoneyBoard</title>
+    <link rel="stylesheet" href="style-convert.css">
+</head>
+<body>
+    
+    <header class="header">
+        <img src="/Assets/png/money-image.png" alt="" class="nav-img">
+        <nav class="nav">
+            
+            <a href="" class="menu-convert">INÍCIO</a>
+            <a href="" class="menu-convert">CONTATO</a>
+            <a href="" class="menu-convert">IDEIAS E SUGESTÕES</a>
+            <a href="" class="menu-convert">PROBLEMAS E BUGS</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="packet">
+            <label for="input" class="labels">Sua moeda</label>
+            <input type="number" name="input" class="input-moeda" placeholder="Digite aqui..."> 
+
+            <img src="" alt="" class="centro-img">
+            <label for="select" class="labels"></label>
+            <select name="select" class="cambio-select">
+
+                <option value="selecione" select disable>Selecione</option>
+                <option value="dolar" class="itens">Dólar Americano</option>
+                <option value="euro" class="itens">Euro</option>
+                <option value="libra" class="itens">Libra Esterlina</option>
+                <option value="rublo" class="itens">Rublo Russo</option>
+                <option value="won" class="itens">Won Sul-Coreano</option>
+               
+                
+            </select>
+
+            <label for="outra-moeda" class="labels">Moeda</label>
+            <span class="display-2moeda" name="outra-moeda" onload=""></span>
+        </div>
+
+            <button class="btn-convert">
+                    Calcular!
+            </button>
+
+    </div>
+
+    <div class="container-res"></div>
+
+
+    <footer class="footer">
+
+    </footer>
+
+    <script src="code-convert.js"></script>
+</body>
+</html>
