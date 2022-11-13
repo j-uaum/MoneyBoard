@@ -133,7 +133,7 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
 
     dashs[8].innerHTML = `<h2>Faça sua conversão aqui</h2>
     <br>
-    <a href="conversor.html" class="href-convert"><button class="btn-convert">Acesse o conversor de moedas</button></a>`
+    <a href="/convert/conversor.html" class="href-convert"><button class="btn-convert">Acesse o conversor de moedas</button></a>`
    
     });
   });
