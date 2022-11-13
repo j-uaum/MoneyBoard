@@ -19,30 +19,31 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
     const rublo = data.RUBBRL
     const won = data.KRWUSD
 
+
+    // let vmicro = micro.value;
+
 function choose (){
-   if(select === "dolar"){
+/*micro acessa o select que acessa as option "que são um array" dps faz um indice e retorna o valor de cada opção*/ 
+let micro = select.options[select.selectedIndex].value 
+// assim que acessa valor de select e faz condicional
+   if(micro == "dolar"){
     return dolar.high;
- } else if(select === "euro"){
+ } else if(micro == "euro"){
     return euro.high;
- }else if(select === "libra"){
+ }else if(micro == "libra"){
     return libra.high;
- }else if(select === "rublo"){
+ }else if(micro == "rublo"){
     return rublo.high;
- }else if(select === "won"){
+ }else if(micro == "won"){
     return won.high;
- }
- 
+ } 
+
 }
-
-
- 
 
 function calc (){
         let vv = input.value
         let total = vv * choose();
-        return choose();
-    
-    
+        return total;
     }
 
 btn.addEventListener('click', ()=>{
@@ -50,19 +51,9 @@ btn.addEventListener('click', ()=>{
          <p class="paragrafo-res">Sua conversão está pronta</p>
          <p class="paragrafo-res>Então não se preocupe, sua conversão está atrelada a cotação em tempo real</p>
        <span class="display-res">${calc()}</span>` 
-console.log(choose())
 
     })
 });
 
 
 
-// btn.addEventListener('click', ()=>{
-
-//     containerRes.innerHTML = `<h2 class="titulo-res">Resultado</h2>
-//     <p class="paragrafo-res">Sua conversão está pronta</p>
-//     <p class="paragrafo-res>Então não se preocupe, sua conversão está atrelada a cotação em tempo real</p>
-//     <span class="display-res"></span>` 
-
-
-// })
