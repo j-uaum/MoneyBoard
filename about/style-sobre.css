@@ -80,8 +80,78 @@ font-family: 'Sarala', sans-serif;
    padding: 7px;
    gap: 18px;
 }
+.img-joao{
+  width: 350px;
+  padding-left: 100px;
+}
+.sobre-joao{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  
+}
+.content-joao{
+padding: 100px;
+}
+.titulo-sobre{
+  margin-top: 3%;
+}
+.principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.segundario{
+  display: none;
+}
+.ideias-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-top: 200px;
+}
+.container-bugs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-top: 1200px;
+  margin-bottom: 1200px;
+}
+.ideias-paragrafo, .bugs-paragrafo{
+  padding: 30px;
+}
+.titulo-ideias{
+  margin-bottom:230px;
+}
+.titulo-bugs{
+  margin-bottom:230px;
+}
+.img-redes{
+  width: 90px;
+}
+.redes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 
-
+}
+.redes-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ padding: 50px;
+}
 
 
 
