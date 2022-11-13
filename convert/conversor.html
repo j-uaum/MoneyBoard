@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MoneyBoard</title>
     <link rel="stylesheet" href="style-convert.css">
+    <link rel="icon" href="/Assets/png/dolares.png" style="width: 100% ;">
 </head>
 <body>
     
     <header class="header">
         <img src="/Assets/png/money-image.png" alt="" class="nav-img">
         <nav class="nav">
-            
-            <a href="" class="menu-convert">INÍCIO</a>
+            <!-- colocar o restante do menu quando terminar o sobre mim -->
+            <a href="/principal/index.html" class="menu-convert">INÍCIO</a>
             <a href="" class="menu-convert">CONTATO</a>
             <a href="" class="menu-convert">IDEIAS E SUGESTÕES</a>
             <a href="" class="menu-convert">PROBLEMAS E BUGS</a>
@@ -23,11 +24,11 @@
     <div class="container">
 
         <div class="packet">
-            <label for="input" class="labels">Sua moeda</label>
+            <label for="input" class="labels">SUA MOEDA</label>
             <input type="number" name="input" class="input-moeda" placeholder="Digite aqui..."> 
 
             <img src="" alt="" class="centro-img">
-            <label for="select" class="labels"></label>
+            <label for="select" class="labels">Escolha qual moeda você precisa</label>
             <select name="select" class="cambio-select">
 
                 <option value="selecione" select disable>Selecione</option>
@@ -40,8 +41,16 @@
                 
             </select>
 
-            <label for="outra-moeda" class="labels">Moeda</label>
-            <span class="display-2moeda" name="outra-moeda" onload=""></span>
+            <label for="outra-moeda" class="labels">MOEDA</label>
+            <span class="display-2moeda" name="outra-moeda" >
+                <span id="othercc1"></span>
+                <span id="othercc2"></span>
+                <span id="othercc3"></span>
+                <span id="othercc4"></span>
+                <span id="othercc5"></span>
+                
+
+            </span>
         </div>
 
             <button class="btn-convert">
@@ -50,7 +59,8 @@
 
     </div>
 
-    <div class="container-res"></div>
+    <div class="
+    "></div>
 
 
     <footer class="footer">

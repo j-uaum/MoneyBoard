@@ -288,6 +288,13 @@ margin-top: 8px;
   background-color: rgba(28, 28, 29, 0.6);
   color: whitesmoke;
 }
+.btn-convert:hover{
+  transition: 100ms linear;
+  transform: scale(1.1);
+    border:  rgba(28, 28, 29, 0.6) solid 2.8px;
+    background-color: orange;
+    color: #000;
+}
 #dash1{
   grid-area: a2;
 }
@@ -322,7 +329,7 @@ margin-top: 8px;
 .menu:hover{
   -webkit-animation: shadow-drop-2-left 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: shadow-drop-2-left 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  color: #feff00;
+  color: orange;
 }
 @-webkit-keyframes shadow-drop-2-left {
   0% {

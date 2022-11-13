@@ -1,10 +1,13 @@
 
 let input = document.querySelector(".input-moeda")
 let btn = document.querySelector(".btn-convert")
-let span = document.querySelector(".display-2moeda")
-let res = document.querySelector(".display-res")
+let moeda1 = document.querySelector("#othercc1")
+let moeda2 = document.querySelector("#othercc2")
+let moeda3 = document.querySelector("#othercc3")
+let moeda4 = document.querySelector("#othercc4")
+let moeda5 = document.querySelector("#othercc5")
 let select = document.querySelector(".cambio-select")
-let containerRes = document.querySelector('.container-res')
+let cont = document.querySelector(".container")
 
 
 
@@ -18,9 +21,6 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
     const libra = data.GBPBRL
     const rublo = data.RUBBRL
     const won = data.KRWUSD
-
-
-    // let vmicro = micro.value;
 
 function choose (){
 /*micro acessa o select que acessa as option "que são um array" dps faz um indice e retorna o valor de cada opção*/ 
@@ -41,16 +41,31 @@ let micro = select.options[select.selectedIndex].value
 }
 
 function calc (){
-        let vv = input.value
-        let total = vv * choose();
-        return total;
+        let vv = parseFloat(input.value)
+        let currency = choose()
+        let cc = parseFloat(currency)
+        let total = vv * cc
+        return parseFloat(total).toLocaleString('pt-br', {style:'currency', currency: 'BRL'});
+    }
+
+    window.onload = function moedas(){
+
+        moeda1.innerHTML = `<h3>Dólar americano</h3> <p>${parseFloat(dolar.high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</p>`
+        moeda2.innerHTML = `<h3>Euro</h3> <p>${parseFloat(euro.high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</p>`
+        moeda3.innerHTML = `<h3>Libra Esterlina</h3> <p>${parseFloat(libra.high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</p>`
+        moeda4.innerHTML = `<h3>Rublo Russo</h3> <p>${parseFloat(rublo.high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</p>`
+        moeda5.innerHTML = `<h3>Won Sul-Coreano</h3> <p>US$ ${won.high}</p>`
+
     }
 
 btn.addEventListener('click', ()=>{
-    containerRes.innerHTML = `<h2 class="titulo-res">Resultado</h2>
+    cont.innerHTML = `<div class="novo-container"><h2 class="titulo-res">Resultado</h2>
          <p class="paragrafo-res">Sua conversão está pronta</p>
          <p class="paragrafo-res>Então não se preocupe, sua conversão está atrelada a cotação em tempo real</p>
-       <span class="display-res">${calc()}</span>` 
+       <span class="display-res">${calc()}</span></div> 
+       <a href="conversor.html"><button class="btn-voltar">Voltar</button></a>` 
+
+console.log(dolar.high)
 
     })
 });
