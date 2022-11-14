@@ -129,29 +129,44 @@ padding: 100px;
   padding: 30px;
 }
 .titulo-ideias{
-  margin-bottom:230px;
+  margin-bottom:120px;
 }
 .titulo-bugs{
-  margin-bottom:230px;
+  margin-bottom:120px;
 }
 .img-redes{
   width: 90px;
 }
 .redes{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: 90px;
   
 
 }
 .redes-content{
   display: flex;
-  flex-direction: column;
+  flex-direction: row ;
   justify-content: center;
   align-items: center;
- padding: 50px;
+ padding: 90px;
 }
+.container-redes{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 600px;
+}
+.texto-tt{
+  padding: 20px;
+}
+.titulo-redes{
+  
+}
+
 
 
 
