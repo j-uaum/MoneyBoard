@@ -22,7 +22,7 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
   btn2.addEventListener('click', () =>{
   //dolar
   fetch("https://economia.awesomeapi.com.br/json/daily/USD-BRL/15").then((res2)=>{return res2.json()}).then((data2)=>{ 
-    dashs[0].innerHTML = `<img class="usa-flag" src="/Assets/png/united-states.png" alt="usa-flag">
+    dashs[0].innerHTML = `<img class="usa-flag" src="./Assets/png/united-states.png" alt="usa-flag">
      <p class="titulo-bandeira">Estados Unidos Da América</p>
      <br><br>
      <p class="continente">América do Norte</p>`;
@@ -113,7 +113,7 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
   btn3.addEventListener('click', () =>{
 //euro
     fetch("https://economia.awesomeapi.com.br/json/daily/EUR-BRL/15").then((res2)=>{return res2.json()}).then((data2)=>{ 
-      dashs[0].innerHTML = `<img class="usa-flag" src="/Assets/png/europe-flag.png" alt="usa-flag">
+      dashs[0].innerHTML = `<img class="usa-flag" src="./Assets/png/europe-flag.png" alt="usa-flag">
                 <p class="titulo-bandeira">União Europeia</p>
                 <br><br>
                 <p class="continente">Europa</p>`;
@@ -203,7 +203,7 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
   });
   btn4.addEventListener('click', () => {
   //real
-  dashs[0].innerHTML = `<img class="usa-flag" src="/Assets/png/brazil.png" alt="usa-flag">
+  dashs[0].innerHTML = `<img class="usa-flag" src="./Assets/png/brazil.png" alt="usa-flag">
    <p class="titulo-bandeira">República Federativa do Brasil</p>
    <br><br>
    <p class="continente">América do Sul</p>`;
@@ -252,7 +252,7 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
   btn5.addEventListener('click', () => {
   //libra
   fetch("https://economia.awesomeapi.com.br/json/daily/GBP-BRL/15").then((res2)=>{return res2.json()}).then((data2)=>{ 
-    dashs[0].innerHTML = `<img class="usa-flag" src="/Assets/png/reino-unido.png" alt="usa-flag"> 
+    dashs[0].innerHTML = `<img class="usa-flag" src="./Assets/png/reino-unido.png" alt="usa-flag"> 
     <p class="titulo-bandeira">Reino Unido</p>
     <br><br>
     <p class="continente">Norte da europa</p>`;
@@ -338,7 +338,7 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
   btn6.addEventListener('click', () => {
   //rublo
   fetch("https://economia.awesomeapi.com.br/json/daily/RUB-BRL/15").then((res2)=>{return res2.json()}).then((data2)=>{ 
-    dashs[0].innerHTML = `<img class="usa-flag" src="/Assets/png/russia.png" alt="usa-flag">
+    dashs[0].innerHTML = `<img class="usa-flag" src="./Assets/png/russia.png" alt="usa-flag">
      <p class="titulo-bandeira">Federação Russa</p>
      <br><br>
      <p class="continente">Europa Oriental</p>`;
@@ -410,7 +410,7 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
   btn7.addEventListener('click', () => {
   //won
   fetch("https://economia.awesomeapi.com.br/json/daily/KRW-USD/15").then((res2)=>{return res2.json()}).then((data2)=>{ 
-    dashs[0].innerHTML = `<img class="usa-flag" src="/Assets/png/coreia-do-sul.png" alt="usa-flag">
+    dashs[0].innerHTML = `<img class="usa-flag" src="./Assets/png/coreia-do-sul.png" alt="usa-flag">
      <p class="titulo-bandeira">República da Coreia</p>
      <br><br>
      <p class="continente">Ásia Orienteal</p>`;
