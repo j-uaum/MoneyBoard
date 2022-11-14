@@ -295,6 +295,10 @@ margin-top: 8px;
     background-color: orange;
     color: #000;
 }
+.convert-svg{
+  width: 80px;
+  
+}
 #dash1{
   grid-area: a2;
 }
