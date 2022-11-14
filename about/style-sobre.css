@@ -12,7 +12,8 @@ html{
   border-radius: 30px;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, #000000, #1C1C1C, #363636, #4F4F4F );
+  /* background: linear-gradient(45deg, #000000, #1C1C1C, #363636, #4F4F4F ); */
+  background-color: orange;
   background-size: 100% 100%;
   animation: cores 30s ease infinite;
   border-radius: 25px;
@@ -97,6 +98,9 @@ padding: 100px;
 }
 .titulo-sobre{
   margin-top: 3%;
+  border-bottom: orange 1px solid;
+  width: 180px;
+  padding: 1px;
 }
 .principal{
   display: flex;
@@ -160,8 +164,13 @@ padding: 100px;
   align-items: center;
   padding: 600px;
 }
+.titulo-redes{
+  border-bottom: orange 1px solid;
+  width: 155px;
+  padding: 1px;
+}
 .texto-tt{
-  padding: 20px;
+  padding: 40px;
 }
 .texto-sobre{
   margin-top: 20px;
@@ -174,8 +183,23 @@ padding: 100px;
 .nome-joao{
   border-bottom: orange 1px solid;
   width: 130px;
-  padding: 1px;
+  padding: 2px;
 }
+.user-redes{
+  margin-top: 18px;
+ 
+}
+.titulo-ideias{
+  border-bottom: orange 1px solid;
+  width: 205px;
+  padding: 2px;
+}
+.titulo-bugs{
+  border-bottom: orange 1px solid;
+  width: 195px;
+  padding: 2px;
+}
+
 
 
 

@@ -12,7 +12,8 @@ html{
   border-radius: 30px;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, #000000, #1C1C1C, #363636, #4F4F4F );
+  /* background: linear-gradient(45deg, #000000, #1C1C1C, #363636, #4F4F4F ); */
+  background-color: orange;
   background-size: 100% 100%;
   animation: cores 30s ease infinite;
   border-radius: 25px;
