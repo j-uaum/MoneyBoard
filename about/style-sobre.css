@@ -163,8 +163,18 @@ padding: 100px;
 .texto-tt{
   padding: 20px;
 }
-.titulo-redes{
-  
+.texto-sobre{
+  margin-top: 20px;
+  text-align: justify;
+  /* font-weight: bold; */ /*para fazer esse mesmo efeito no html <b></b>*/
+}
+.negrito{
+  color: orange;
+}
+.nome-joao{
+  border-bottom: orange 1px solid;
+  width: 130px;
+  padding: 1px;
 }
 
 
