@@ -44,7 +44,7 @@ function calc (){
         let vv = parseFloat(input.value)
         let currency = choose()
         let cc = parseFloat(currency)
-        let total = vv * cc
+        let total = vv / cc
         return parseFloat(total).toLocaleString('pt-br', {style:'currency', currency: 'BRL'});
     }
 
