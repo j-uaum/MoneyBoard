@@ -45,7 +45,7 @@ function calc (){
         let currency = choose()
         let cc = parseFloat(currency)
         let total = vv / cc
-        return parseFloat(total).toLocaleString('pt-br', {style:'currency', currency: 'BRL'});
+        return parseFloat(total).toLocaleString('pt-br', {style:'currency', currency: 'USD'});
     }
 
     window.onload = function moedas(){
