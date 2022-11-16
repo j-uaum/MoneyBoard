@@ -62,6 +62,7 @@ btn.addEventListener('click', ()=>{
     cont.innerHTML = `<div class="novo-container"><h2 class="titulo-res">Resultado</h2>
          <p class="paragrafo-res">Sua conversão está pronta</p>
          <p class="paragrafo-res>Então não se preocupe, sua conversão está atrelada a cotação em tempo real</p>
+         <p class="paragrafo-res">Por mais que o resultado esteja em USD, ele está sendo exibido o valor da moeda que você escolheu</p>
        <span class="display-res">${calc()}</span></div> 
        <a href="conversor.html"><button class="btn-voltar">Voltar</button></a>` 
 
