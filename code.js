@@ -422,9 +422,9 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
         <br><br>
         <p>Cotação em tempo real</p>
         <br>
-        <p>1 BRL >> 252,625 KRW</p>
+        <p><b>1 BRL >> 252,625 KRW</b></p>
         <br>
-        <p>1 USD >> 1.319,71 KRW</p>`
+        <p><b>1 USD >> 1.319,71 KRW</b></p>`
     dashs[2].innerHTML = `<h3>Cotações Antigas</h3>
     <br> 
     <h1 class="anti-coti"> ${parseFloat(data2[1].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</h1>
