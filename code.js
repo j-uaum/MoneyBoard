@@ -141,58 +141,57 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
                 <h1 class="anti-coti">  ${parseFloat(data2[7].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</h1>` 
                     dashs[3].innerHTML = `<h2 class='titulo-pontos'>Principais pontos da econômia</h2>
                               <br><br> 
-                              <li class='item-lista'>Serviços e empresas</li>
+                              <li class='item-lista'>Serviços e comércios</li>
                               <br>
-                              <li class='item-lista'>Agropecuarios</li>
+                              <li class='item-lista'>Agropecuários</li>
                               <br>
                               <li class='item-lista'>Industria</li>
                               <br> 
-                              <li class='item-lista'>Tecnologia</li>
+                              <li class='item-lista'>Commodities</li>
                               <br> 
                               <li class='item-lista'>Mineração</li>
                               <br> 
                               <li class='item-lista'>Turismo</li>
                               <br> 
-                              <li class='item-lista'>Cinema e entretenimento</li>`
+                              <li class='item-lista'>Produtos de alta tecnologia</li>`
       dashs[5].innerHTML = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/a4QtVQazVmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
                     dashs[6].innerHTML = `<h2 class='titulo-pontos'>Dados do País</h2> 
                               <br><br> 
-                              <li class='item-lista'>Liderança: Joe Biden</li>
+                              <li class='item-lista'>Liderança: Roberta Metsola</li>
                               <br>
-                              <li class='item-lista'>Capital: Washington D.C.</li>
+                              <li class='item-lista'>Capital: Bruxelas, Bélgica</li>
                               <br>
-                              <li class='item-lista'>População: 329,5 Milhões (2020)</li> 
+                              <li class='item-lista'>População: 746,4 Milhões (2018)</li> 
                               <br>
-                              <li class='item-lista'>Cidades Notaveis: New York, San Francisco, Los Angeles, Chicago</li>
+                              <li class='item-lista'>Cidades Notaveis: Roma, Londres, Paris, Berlim, Bruxelas, Amsterdam, Lisboa, Madrid</li>
                               <br>
-                              <li class='item-lista'>PIB: US$23 Trilhões (2021) * O maior</li>
+                              <li class='item-lista'>PIB: US$15,3 Trilhões (2021) * O maior</li>
                               <br>
-                              <li class='item-lista'>PIB per Capita: US$ 69.230,00 </li> 
+                              <li class='item-lista'>PIB per Capita: US$ 32.506,00 </li> 
                               <br>
-                              <li class='item-lista'>Inflação: 7% (Dezembro de 2021)</li>`
+                              <li class='item-lista'>Inflação: Média de 4,7% (Dezembro de 2021)</li>`
       dashs[7].innerHTML = `<h2 class='titulo-pontos'>Países que utilizam essa moeda</h2>
                 <br><br>
-                <h3 class='item-lista'>Oficialmente:</h3>
+                <li class='item-lista'>Alemanha</li>
                 <br>
-                <li class='item-lista'>Timor-Leste</li>
+                <li class='item-lista'>França</li>
                 <br>
-                <li class='item-lista'>Equador</li>
+                <li class='item-lista'>Italia</li>
                 <br>
-                li class='item-lista'>El Salvador</li>
+                <li class='item-lista'>Portugal</li>
                 <br>
-                <li class='item-lista'>Panamá</li>
+                <li class='item-lista'>Países Baixos</li>
                 <br>
-                <li class='item-lista'>Zimbabwe</li>
+                <li class='item-lista'>Espanha</li>
                 <br>
-                <li class='item-lista'>Estados Federados da Micronésia</li>
+                <li class='item-lista'>Irlanda</li>
                 <br>
-                <h3 class='item-lista'>Não Oficial:</h3>
-                <br> 
-                <li class='item-lista'>Porto Rico</li>
-                <br> 
-                <li class='item-lista'>Samoa Americana</li> 
+                <li class='item-lista'>Dinamarca</li>
                 <br>
-                <li class='item-lista'>Ilhas Virgens</li>`
+                <li class='item-lista'>Suecia</li>
+                <br>
+                <li class='item-lista'>Mais outros 10 países</li>
+                `
 
                   dashs[8].innerHTML = `<h2>Faça sua conversão aqui</h2>
                             <br>
@@ -211,7 +210,7 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
   dashs[2].innerHTML = `<h3>Real Brasileiro (BRL)</h3>` 
   dashs[3].innerHTML = `<h2 class='titulo-pontos'>Principais pontos da econômia</h2>
   <br><br>
-   <li class='item-lista'>Serviços e empresas</li>
+   <li class='item-lista'>Commodities</li>
    <br>
    <li class='item-lista'>Agropecuarios</li>
     <br>
@@ -222,8 +221,7 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
     <li class='item-lista'>Mineração</li>
     <br> 
     <li class='item-lista'>Turismo</li>
-    <br>
-     <li class='item-lista'>Cinema e entretenimento</li> `
+    <br>`
   dashs[5].innerHTML = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/7BJ1YQWwogE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
   dashs[6].innerHTML = `<h2 class='titulo-pontos'>Dados do País</h2>
   <br><br>
@@ -280,19 +278,17 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
       <h1 class="anti-coti">  ${parseFloat(data2[7].high).toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}</h1>` 
     dashs[3].innerHTML = `<h2 class='titulo-pontos'>Principais pontos da econômia</h2>
     <br><br>
-     <li class='item-lista'>Serviços e empresas</li>
+     <li class='item-lista'>Serviços financeiros</li>
      <br>
-     <li class='item-lista'>Agropecuarios</li>
+     <li class='item-lista'>Agropecuarios e pesca</li>
      <br>
      <li class='item-lista'>Industria</li>
      <br> 
      <li class='item-lista'>Tecnologia</li>
      <br> 
-     <li class='item-lista'>Mineração</li>
-     <br> 
      <li class='item-lista'>Turismo</li>
      <br>
-      <li class='item-lista'>Cinema e entretenimento</li> `
+       `
     dashs[5].innerHTML - `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/6_H_wXWnF1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     dashs[6].innerHTML = `<h2 class='titulo-pontos'>Dados do País</h2>
     <br><br>
@@ -368,17 +364,15 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
     <br><br>
      <li class='item-lista'>Serviços e empresas</li>
      <br>
-     <li class='item-lista'>Agropecuarios</li>
+     <li class='item-lista'>Agropecuários</li>
       <br>
       <li class='item-lista'>Industria</li>
-      <br>
-       <li class='item-lista'>Tecnologia</li>
        <br>
-        <li class='item-lista'>Mineração</li>
+        <li class='item-lista'>Mineração e refinárias</li>
         <br>
          <li class='item-lista'>Turismo</li>
          <br> 
-         <li class='item-lista'>Cinema e entretenimento</li> `
+         <li class='item-lista'>Setor de energia</li> `
     dashs[5].innerHTML = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Z0pYFEkxvu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     dashs[6].innerHTML = `<h2 class='titulo-pontos'>Dados do País</h2>
     <br><br> 
@@ -448,7 +442,7 @@ fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL,R
      <br>
      <li class='item-lista'>Industria</li>
      <br> 
-     <li class='item-lista'>Tecnologia</li>
+     <li class='item-lista'>Alta Tecnologia</li>
      <br>
       <li class='item-lista'>Mineração</li>
       <br> 
