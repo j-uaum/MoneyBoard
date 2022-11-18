@@ -23,6 +23,6 @@
 * Desenvolvimento de uma melhor responsividade
 * Reidealização do header/menu/nav
 
-#### O site está disponível no github pages, porém está coberto de bugs devido ao sistema do próprio github. <br> Então para uma melhor experiência acesse a plataforma pelo link do vercel >>>
+#### O site está disponível no github pages, porém está coberto de bugs devido ao sistema do próprio github. <br> Então para uma melhor experiência acesse a plataforma pelo link do vercel >>> https://dashboard-grid.vercel.app/
 
 ### Prévias do site abaixo
