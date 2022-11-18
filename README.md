@@ -26,3 +26,7 @@
 #### O site está disponível no github pages, porém está coberto de bugs devido ao sistema do próprio github. <br> Então para uma melhor experiência acesse a plataforma pelo link do vercel >>> https://dashboard-grid.vercel.app/
 
 ### Prévias do site abaixo
+<img src="/sspt-github/1.png" alt="1">
+<img src="/sspt-github/2.png" alt="2">
+<img src="/sspt-github/3.png" alt="3">
+<img src="/sspt-github/4.png" alt="4">
