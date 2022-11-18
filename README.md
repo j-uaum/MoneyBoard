@@ -12,7 +12,7 @@
 
 ### Sobre o projeto
 * Feito em Javascript puro
-* Nesse projeto foi usada 2 API awesome
+* Nesse projeto foi usadas 2 API awesome
 * Design feito em Css puro
 * Tempo de produção: 3 semanas, desde o desenvolvimento, design, debugging e reidealização da identidade do site
 
