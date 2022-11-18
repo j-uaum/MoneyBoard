@@ -14,7 +14,7 @@
 * Feito em Javascript puro
 * Nesse projeto foi usadas 2 API awesome
 * Design feito em Css puro
-* Tempo de produção: 3 semanas, desde o desenvolvimento, design, debugging e reidealização da identidade do site
+* Tempo de produção: 2 semanas, desde o desenvolvimento, design, debugging e reidealização da identidade do site
 
 ### Planos futuros
 * Adicionar mais 10 cotações de moedas
